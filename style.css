@@ -52,3 +52,21 @@ input:focus{
     margin-top: 5px;
     font-size: 18px;
 }
+
+@media only screen and (max-width: 600px) {
+    .sub-email{
+        width: 330px;
+        height: 50px;
+        border-radius:5px ;
+        border: 1px solid white;
+        background-color: #2B84FF;
+        color:white;
+        position: relative;
+        right: 50%;
+        left: 50%;
+        transform: translate(-50%);
+        margin-top: 5px;
+        font-size: 18px;
+    }
+    }
+  
